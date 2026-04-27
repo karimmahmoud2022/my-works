@@ -1,7 +1,7 @@
 <template>
   <div class="hero">
     <div class="container">
-      <div class="row pt-5">
+      <div class="row pt-5 mt-5 align-items-center">
         <div class="col-sm-6 col-12">
           <div class="content">
             <div class="hero-tag d-flex gap-2 align-items-center">
@@ -275,5 +275,70 @@ export default {};
 .cm {
   color: #5a5854;
 }
-</style>
+/* ========== Tablets & smaller ========= */
+@media (max-width: 992px) {
+  .hero {
+    height: auto;
+    padding: 80px 0;
+  }
 
+  .content h1 {
+    font-size: 45px !important;
+  }
+
+  .content p {
+    font-size: 16px;
+  }
+
+  .technology {
+    flex-wrap: wrap;
+    gap: 10px !important;
+  }
+
+  .button-action {
+    flex-direction: column;
+    gap: 15px !important;
+  }
+
+  .hero-right {
+    margin-top: 40px;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .content h1 {
+    font-size: 32px !important;
+    text-align: start;
+  }
+
+  .content p {
+    text-align: start;
+  }
+
+  .hero-tag {
+    margin: 0 auto;
+    float:right;
+    margin-top: -50px;
+  }
+
+  .technology {
+    justify-content: start !important;
+  }
+
+  .button-action {
+    align-items:end;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero-right {
+    transform: scale(0.95);
+  }
+
+ 
+}
+</style>
