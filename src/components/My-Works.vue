@@ -1,5 +1,5 @@
 <template>
-  <div class="work">
+  <div class="work" id="projects">
     <div class="container m-auto pt-5">
       <p class="sub-work">02 — الأعمال</p>
       <h1 class="text-white fs-5">أعمالي السابقة</h1>

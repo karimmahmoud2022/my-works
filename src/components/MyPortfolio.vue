@@ -42,8 +42,10 @@
             <div
               class="button-action d-flex justify-content-start mt-5 gap-5 align-content-center"
             >
-              <div class="btn btn-lights rounded-5 p-3">استعراض اعمالي</div>
-              <div class="btn btn-light rounded-5 p-3">تواصل معي</div>
+              <a href="#projects" class="btn btn-lights rounded-5 p-3">
+                استعراض اعمالي
+              </a>
+              <a href="#cont" class="btn btn-light rounded-5 p-3" >تواصل معي</a>
             </div>
           </div>
         </div>
@@ -305,7 +307,6 @@ export default {};
   }
 }
 
-
 @media (max-width: 576px) {
   .content h1 {
     font-size: 32px !important;
@@ -318,7 +319,7 @@ export default {};
 
   .hero-tag {
     margin: 0 auto;
-    float:right;
+    float: right;
     margin-top: -50px;
   }
 
@@ -327,7 +328,7 @@ export default {};
   }
 
   .button-action {
-    align-items:end;
+    align-items: end;
   }
 
   .btn {
@@ -338,7 +339,5 @@ export default {};
   .hero-right {
     transform: scale(0.95);
   }
-
- 
 }
 </style>
